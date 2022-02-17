@@ -1,0 +1,26 @@
+{
+  "particles": {
+    "number": {
+      "value": 100
+    },
+    "color": {
+      "value": "#576ee0"
+    },
+    "size": {
+      "value": 5
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 120,
+      "color": "#8695e2",
+      "width": 2
+    },
+    "move": {
+      "enable": true,
+      "speed": 3
+    },
+    "opacity": {
+      "value": 0.1
+    }
+  }
+}
