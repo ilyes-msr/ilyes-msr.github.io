@@ -119,6 +119,11 @@ img {
   height: auto;
 }
 
+#about {
+  /* border: 1px red solid; */
+  margin-top: 200px;
+}
+
 .section {
   padding: 2rem 0 4rem;
 }
