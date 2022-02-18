@@ -1011,6 +1011,9 @@ img {
   #about {
     margin-top: 480px !important;
   }
+  .home__data {
+    text-align: center !important;
+  }
 }
 
 @media screen and (min-width: 568px) {
@@ -1209,5 +1212,8 @@ img {
 @media screen and (max-width: 577px) {
   #about {
     margin-top: 380px;
+  }
+  .home__data {
+    text-align: center !important;
   }
 }
