@@ -203,7 +203,7 @@ img {
   }
   #about {
     /* border: 1px red solid; */
-    margin-top: 200px;
+    margin-top: 70px;
   }
 }
 
@@ -1211,9 +1211,21 @@ img {
 }
 @media screen and (max-width: 577px) {
   #about {
-    margin-top: 380px;
+    margin-top: 280px;
   }
   .home__data {
     text-align: center !important;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  #about {
+    margin-top: 120px;
+  }
+}
+
+@media screen and (max-width: 567px) and (min-width: 351px) {
+  #about {
+    margin-top: 320px;
   }
 }
