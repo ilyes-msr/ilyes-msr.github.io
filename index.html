@@ -17,7 +17,7 @@
   <!-- -->
   <header class="header" id="header">
     <nav class="nav container">
-      <a href="#" class="nav__logo">Ilyes</a>
+      <a href="#" class="nav__logo"></a>
       <div class="nav__menu" id="nav-menu">
         <ul class="nav__list grid">
           <li class="nav__item">
@@ -720,7 +720,7 @@
 
           <div class="contact__content">
             <label for="" class="contact__label">Message</label>
-            <textarea name="message" id="" cols="0" rows="7" class="contact__input" required></textarea>
+            <textarea name="message" id="" cols="0" rows="7" class="contact__input" required style="resize: none;"></textarea>
           </div>
 
           <div style="position: absolute; left: -5000px;">
@@ -728,7 +728,7 @@
           </div>
           
           <div>
-            <input type="submit" value="Send Message" class="button button--flex" style="cursor: pointer; font-weight: bold;">
+            <input type="submit" value="Send Message" class="button button--flex" style="cursor: pointer; font-weight: bold; box-shadow: none; border: none;">
           </div>
         </form>
       </div>
@@ -787,7 +787,7 @@
   (function () {
       var options = {
           whatsapp: "+213541439321", // WhatsApp number
-          call_to_action: "Message us", // Call to action
+          call_to_action: "", // Call to action
           position: "left", // Position may be 'right' or 'left'
           pre_filled_message: "Hi, I'm interested in your service", // WhatsApp pre-filled message
       };
