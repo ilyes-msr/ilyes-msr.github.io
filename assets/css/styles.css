@@ -1229,3 +1229,9 @@ img {
     margin-top: 320px;
   }
 }
+
+@media screen and (max-width: 380px) and (min-width: 350px) {
+  #about {
+    margin-top: 370px;
+  }
+}
