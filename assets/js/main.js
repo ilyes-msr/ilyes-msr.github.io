@@ -171,6 +171,3 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
-
-// Particles
-particlesJS.load("particle-effect", "assets/particles.json", function () {});
