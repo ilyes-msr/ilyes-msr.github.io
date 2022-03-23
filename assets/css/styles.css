@@ -1179,6 +1179,7 @@ img {
   }
   .portfolio__img {
     width: 320px;
+    height: 250px;
   }
   .portfolio__content {
     align-items: center;
