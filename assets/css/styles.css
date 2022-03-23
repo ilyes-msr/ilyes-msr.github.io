@@ -1279,3 +1279,7 @@ img {
     margin-top: 370px;
   }
 }
+
+em {
+  font-style: normal !important;
+}
