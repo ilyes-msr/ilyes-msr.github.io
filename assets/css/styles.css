@@ -762,6 +762,7 @@ img {
   width: 265px;
   border-radius: 0.5rem;
   justify-self: center;
+  height: 250px;
 }
 
 .portfolio__title {
