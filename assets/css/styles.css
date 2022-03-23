@@ -1201,13 +1201,13 @@ img {
     padding-top: 0.8rem;
   }
   .footer__container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
   .footer__bg {
     padding: 2rem 0 1.5rem;
   }
   .footer__links {
-    flex-direction: row;
+    flex-direction: column;
     column-gap: 1.5rem;
   }
   .footer__social {
