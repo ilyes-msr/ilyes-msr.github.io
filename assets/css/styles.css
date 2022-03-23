@@ -116,6 +116,9 @@ body.dark-theme {
   display: flex;
   align-items: center;
 }
+.footer__container {
+  text-align: center;
+}
 
 .change-theme {
   font-size: 1.25rem;
@@ -1080,6 +1083,9 @@ img {
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
+  .footer__container {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1284,4 +1290,11 @@ img {
 
 em {
   font-style: normal !important;
+}
+
+.quick-links,
+.follow-me {
+  color: white;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
 }
