@@ -14,6 +14,7 @@
   </script>
   <title>Ali Ilyes Mansour | Portfolio</title>
 
+
 </head> 
 <body>
   <div class="loader_bg">
@@ -684,7 +685,7 @@
 
 
         </div>
-        <form action="https://app.99inbound.com/api/e/tlvqhOjk" method="POST" target="_blank" class="contact__form grid">
+        <form action="https://app.99inbound.com/api/e/tlvqhOjk" method="POST" target="_blank" class="contact__form grid" id="frm-signup">
           <div class="contact__inputs grid">
             <div class="contact__content">
               <label for="" class="contact__label">Name</label>
@@ -710,10 +711,12 @@
             <input type="checkbox" name="old_fashioned_red_plaid_dingo" value="1" tabindex="-1" autocomplete="no">
           </div>
           <div
+            id="g-recaptcha-response"
             class="g-recaptcha"
             data-sitekey="6Le7XTwgAAAAALZL6U46lXlAao9beg-z3SonaiER"
           >
           </div>
+          <p id="frm-result"></p>
           <div>
             <input type="submit" value="Send Message" class="button button--flex" style="cursor: pointer; font-weight: bold; box-shadow: none; border: none;">
           </div>
@@ -836,5 +839,27 @@ $('a[href*="#"]')
   // Particles
 particlesJS.load("particle-effect", "assets/particles.json", function () {});
 </script>
+
+  <script>
+    function checkRecaptcha() {
+      res = $('#g-recaptcha-response').val();
+
+      if (res == "" || res == undefined || res.length == 0)
+        return false;
+      else
+        return true;
+    }
+
+    //...
+
+    $('#frm-signup').submit(function(e) {
+
+      if(!checkRecaptcha()) {
+        $( "#frm-result" ).text("Please validate your reCAPTCHA.");
+        return false;
+      }
+      //...
+    });
+  </script>
 </body>
 </html>
